@@ -2,5 +2,5 @@ class Person
   def initialize(name)
     @name = name
   end 
-  attr_accessible :name
+  attr_accessor :name
 end 
